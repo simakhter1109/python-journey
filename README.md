@@ -9,19 +9,14 @@ I'm a CSE student learning Python and working towards a career in Artificial Int
 ## What You'll Find Here
 
 - Python Basics
-- Conditional Statements
-- Loops
-- Match Case Programs
+- Python Advanced 
 - Mini Projects
 - Practice Problems
 
 ## My Goals
 
 - Master Python
-- Learn DSA
-- Build AI/ML Projects
-- Explore Generative AI
-- Contribute to Open Source
+- Build Projects 
 
 ## Tools
 
