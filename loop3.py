@@ -14,3 +14,24 @@ for el in num:
         print(x, "found at index ", idx)
         break
     idx +=1
+
+# Print numbers from 1 to 100.
+
+for i in range (1, 101):
+    print(i)
+
+# Print numbers from 100 to 1.
+
+for i in range (101, 0, -1):
+    print (i)
+
+# Print the multiplication table of number n.
+ 
+n = int(input("Enter a number: "))
+
+for i in range(1, 11):
+    print(n, "X", i, "=", n * i)
+
+# To find the suun of first n numbers using while loop.
+
+# To find the factorial of first n numbers using for loop.
