@@ -1,28 +1,23 @@
-# python-journey
-100 days of python learning
-# Python Journey 
+Hi, I'm Sim Akhter, welcom to my 100 days of python journey where I am learning Python like I totally know what I'm doing.
 
-Hi!! I am Sim Akhter!
+# Python Journey
 
-I'm a CSE student learning Python and working towards a career in Artificial Intelligence, Machine Learning, and Generative AI.
+A structured record of my journey learning Python and building
+a foundation in Artificial Intelligence, Machine Learning.
+
+I'm a CSE student exploring Python through
+hands-on practice, problem solving, data analysis, and projects.
 
 ## What You'll Find Here
 
-- Python Basics
-- Python Advanced 
-- Mini Projects
-- Practice Problems
-
-## My Goals
-
-- Master Python
-- Build Projects 
+01-Python Basics
+02-Problem Solving
+03-Mini Projects
+04-NumPy
+05-Pandas
+06-Matplotlib
 
 ## Tools
 
-- Python
-- VS Code
-- Git
-- GitHub
+Python · Jupyter Notebook · VS Code · Git · GitHub
 
- Learning and improving one commit at a time.
