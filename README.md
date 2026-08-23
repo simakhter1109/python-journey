@@ -10,14 +10,18 @@ hands-on practice, problem solving, data analysis, and projects.
 
 ## What You'll Find Here
 
-01-Python Basics
-02-Problem Solving
-03-Mini Projects
-04-NumPy
-05-Pandas
-06-Matplotlib
+- 01-Python Basics
+- 02-Problem Solving
+- 03-Mini Projects
+- 04-NumPy
+- 05-Pandas
+- 06-Matplotlib
 
 ## Tools
 
-Python · Jupyter Notebook · VS Code · Git · GitHub
+- Python 
+- Jupyter Notebook  
+- VS Code  
+- Git 
+- GitHub
 
