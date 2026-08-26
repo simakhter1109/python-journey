@@ -8,7 +8,7 @@ a foundation in Artificial Intelligence, Machine Learning.
 I'm a CSE student exploring Python through
 hands-on practice, problem solving, data analysis, and projects.
 
-## What You'll Find Here
+# What You'll Find Here
 
 - 01-Python Basics
 - 02-Problem Solving
@@ -17,7 +17,7 @@ hands-on practice, problem solving, data analysis, and projects.
 - 05-Pandas
 - 06-Matplotlib
 
-## Tools
+# Tools
 
 - Python 
 - Jupyter Notebook  
