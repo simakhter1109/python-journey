@@ -58,4 +58,76 @@
 
 
 
+# # GRADE CALCULAATOR
+# marks = int(input("Enter your marks: "))
+# if marks >= 90:
+#     grade = "A"
+# elif marks >= 80:
+#     grade = "B"
+# elif marks >= 70:
+#     grade = "C"
+# elif marks >= 60:
+#     grade = "D"
+# else:
+#     grade = "F"
+# print(f"Your grade is: {grade}")
+
+
+
+# # SIMPLE LOGIN SYSTEM
+# set_your_username = str(input("Enter the username you want: "))
+# set_your_password = str(input("Set your password: "))
+
+# print("\033[1mDONE\033[0m")
+
+# username = input("Enter your username: ")
+# password = input("Enter your password: ")
+
+# correct_admin = username == set_your_username
+# correct_login = username == set_your_username and password == set_your_password
+# if correct_admin or correct_login:
+#     print("\033[1mAccess granted.\033[0m")
+# else:
+#     print("\033[1mAccess denied.\033[0m")
+
+
+
+# # SIMPLE ATM SYSTEM
+# set_pin = str(input("\033[1mSet your PIN: \033[0m"))
+# put_balance = int(input("\033[1mPut your balance: \033[0m"))
+
+# print("\033[1mDONE.\033[0m")
+
+# pin = (input("\033[1mPIN: \033[0m"))
+# if pin == set_pin:
+#     print("\033[1mCORRECT PIN.\033[0m")
+#     amount = int(input("\033[1mEnter withdrawal amount: \033[0m"))
+
+#     if amount <= put_balance:
+#         balance = put_balance - amount
+#         print(f"\033[1mWITHDRAWAL SUCCESSFUL.\033[0m")
+#         print(f"\033[1mREMAINING BALANCE: ${balance}\033[0m")
+#     else:
+#         print("\033[1mINSUFFIENT BALANCE.\033[0m")
+# else:
+#     print("\033[1mINCORRECT PIN.\033[0m")
+
+
+
+# # DRIVING LICENSE ELIGIBILITY
+# age = int(input("Enter your age: "))
+
+# if age < 18:
+#     print("You are underage. You cannot get a driving license.")
+
+# elif age >= 18:
+#     passed_test = input("Have you passed the driving test? (yes/no): ") == "yes"
+
+#     if passed_test:
+#         print("You can get a full driving license.")
+#     else:
+#         print("You are 18+, but you must pass the driving test first.")
+
+
+
 #
