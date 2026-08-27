@@ -43,4 +43,19 @@
 
 
 
+# # LOGICAL OPERATORS
+# age = int(input("Enter the age: "))
+# has_id = True
+# is_student = False
+
+# can_enter = age >= 18 and has_id
+# student_discount = is_student or age < 18
+# no_id = not has_id
+
+# print("Can enter: ", can_enter)
+# print("Student discount: ", student_discount)
+# print("No valid ID: ", no_id)
+
+
+
 #
