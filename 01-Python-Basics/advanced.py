@@ -46,22 +46,70 @@
 
 
 
-# PROBLEM 3
-password = input("Enter your password: ")
+# # PROBLEM 3
+# password = input("Enter your password: ")
 
-has_upper = False
-has_lower = False
-has_digit = False
+# has_upper = False
+# has_lower = False
+# has_digit = False
 
-for char in password:
-    if char.isupper():
-        has_upper = True
-    elif char.islower():
-        has_lower = True
-    elif char.isdigit():
-        has_digit = True
+# for char in password:
+#     if char.isupper():
+#         has_upper = True
+#     elif char.islower():
+#         has_lower = True
+#     elif char.isdigit():
+#         has_digit = True
 
-if len(password) >= 8 and has_upper and has_lower and has_digit:
-    print("Strong password")
-else:
-    print("Weak password")
+# if len(password) >= 8 and has_upper and has_lower and has_digit:
+#     print("Strong password")
+# else:
+#     print("Weak password")
+
+
+
+# # PROBLEM 4
+# import random
+
+# number = random.randint(1, 100)
+
+# while True:
+
+#     guess = int(input("Guess the number: "))
+
+#     if guess < number:
+#         print("Too low!")
+
+#     elif guess > number:
+#         print("Too high!")
+
+#     else:
+#         print("Correct!")
+#         break
+
+
+# PROBLEM 5 
+for number in range(2, 51):
+    is_prime = True
+    for i in range (12, number):
+        if number % 1 == 0:
+            is_prime = False
+            break
+    if is_prime:
+        print(number)
+
+# User input
+start = int(input("Enter starting number: "))
+end = int(input("Enter ending number: "))
+
+for number in range(start, end + 1):
+
+    is_prime = True
+
+    for i in range(2, number):
+        if number % i == 0:
+            is_prime = False
+            break
+
+    if is_prime:
+        print(number)
