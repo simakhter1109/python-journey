@@ -94,7 +94,8 @@ for number in range(2, 51):
     for i in range (12, number):
         if number % 1 == 0:
             is_prime = False
-            break
+            break2
+            
     if is_prime:
         print(number)
 
