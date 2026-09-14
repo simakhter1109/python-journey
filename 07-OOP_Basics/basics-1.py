@@ -77,14 +77,29 @@
  
 
 
-# ENCAPSULATION
-class BankAccount:
-    def __init__ (self, balance):
-        self.__balance = balance
-    def deposite (self, amount):
-        self.__balance += amount
-    def show_balance(self):
-        print("Balance: ", self.__balance)
-account = BankAccount(5000)
-account.deposite(2000)
-account.show_balance()
+# # ENCAPSULATION
+# class BankAccount:
+#     def __init__ (self, balance):
+#         self.__balance = balance
+#     def deposite (self, amount):
+#         self.__balance += amount
+#     def show_balance(self):
+#         print("Balance: ", self.__balance)
+# account = BankAccount(5000)
+# account.deposite(2000)
+# account.show_balance()
+
+
+
+
+# INHERITANCE
+class Animal:
+    def eat(self):
+        print("Animal is eating")
+
+class Dog(Animal):
+    def bark(self):
+        print("Dog is barking")
+dog = Dog()
+dog.eat()
+dog.bark()
