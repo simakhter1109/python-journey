@@ -19,13 +19,23 @@
 
 
 
-# CONSTRUCTOR
+# # CONSTRUCTOR
+# class Student:
+#     def __init__(self, name, age, marks):
+#         self.name = name
+#         self.age = age
+#         self.marks = marks
+# student = Student ("Sahil", 22, 96)
+# print(student.name)
+# print(student.age)
+# print(student.marks)
+
+
+# METHODS
 class Student:
-    def __init__(self, name, age, marks):
-        self.name = name
-        self.age = age
-        self.marks = marks
-student = Student ("Sahil", 22, 96)
-print(student.name)
-print(student.age)
-print(student.marks)
+    def __init__ (self, name):
+        self.name= name
+    def introduce(self):
+        print(f"Hi, I am {self.name}.")
+student = Student("Sahil")
+student.introduce()
