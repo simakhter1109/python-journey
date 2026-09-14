@@ -42,35 +42,49 @@
 
 
 
-# STUDENT GRADE SYSTEM (class + object + constructor + methods + attributes)
-class Student:
-    def __init__(self, name, marks):
-        self.name = name
-        self.marks = marks
-    def average(self):
-        return sum (self.marks)/ len(self.marks)
 
-    def grade(self):
-        avg = self.average()
-        if avg >= 90:
-            return "A"
-        elif avg >= 80:
-            return "B"
-        elif avg >= 70:
-            return "C"
-        elif avg >= 60:
-            return "D"
-        else:
-            return "F"
-student1 = Student("Sim", [86, 90, 78, 93])
-student2 = Student("Sahil", [89, 98, 87, 95])
-print("Student 1: ")
-print(student1.name)
-print(student1.average())
-print(student1.grade())
-print("Student 2: ")
-print(student2.name)
-print(student2.average())
-print(student2.grade())
+# # STUDENT GRADE SYSTEM (class + object + constructor + methods + attributes)
+# class Student:
+#     def __init__(self, name, marks):
+#         self.name = name
+#         self.marks = marks
+#     def average(self):
+#         return sum (self.marks)/ len(self.marks)
+
+#     def grade(self):
+#         avg = self.average()
+#         if avg >= 90:
+#             return "A"
+#         elif avg >= 80:
+#             return "B"
+#         elif avg >= 70:
+#             return "C"
+#         elif avg >= 60:
+#             return "D"
+#         else:
+#             return "F"
+# student1 = Student("Sim", [86, 90, 78, 93])
+# student2 = Student("Sahil", [89, 98, 87, 95])
+# print("Student 1: ")
+# print(student1.name)
+# print(student1.average())
+# print(student1.grade())
+# print("Student 2: ")
+# print(student2.name)
+# print(student2.average())
+# print(student2.grade())
 
  
+
+
+# ENCAPSULATION
+class BankAccount:
+    def __init__ (self, balance):
+        self.__balance = balance
+    def deposite (self, amount):
+        self.__balance += amount
+    def show_balance(self):
+        print("Balance: ", self.__balance)
+account = BankAccount(5000)
+account.deposite(2000)
+account.show_balance()
