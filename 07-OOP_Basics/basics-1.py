@@ -92,14 +92,28 @@
 
 
 
-# INHERITANCE
-class Animal:
-    def eat(self):
-        print("Animal is eating")
+# # INHERITANCE
+# class Animal:
+#     def eat(self):
+#         print("Animal is eating")
 
+# class Dog(Animal):
+#     def bark(self):
+#         print("Dog is barking")
+# dog = Dog()
+# dog.eat()
+# dog.bark()
+# # here Dog inherits from Animal ... Animal - Parent class
+# # Dog - Child class
+
+
+
+# POLYMORPHISM
+class Animal:
+    def sound(self):
+        print("Animal makes a sound")
 class Dog(Animal):
-    def bark(self):
-        print("Dog is barking")
+    def sound(self):
+        print("Dog says Woof!")
 dog = Dog()
-dog.eat()
-dog.bark()
+dog.sound()
